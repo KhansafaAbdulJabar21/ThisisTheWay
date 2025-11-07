@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    background: url("Star\ Wars_\ The\ Mandalorian.jpg") center/cover fixed;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+    background: linear-gradient(180deg, #1B1B1B, #0A0A0A);
+    border-bottom: 2px solid #E7D8AA;
+}
+
+.mandalorian-logo {
+    width: 80px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.header-logo-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+h1 {
+    font-size: 2rem;
+    letter-spacing: 2px;
+    color: #E7D8AA;
+    text-shadow: 0 0 10px rgba(255, 230, 150, 0.5);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+.contact-section {
+    max-width: 600px;
+    background-color: rgba(15, 15, 15, 0.8);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 25px rgba(231, 216, 170, 0.1);
+    backdrop-filter: blur(4px);
+}
+
+.contact-section h2 {
+    text-align: center;
+    color: #E7D8AA;
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+}
+
+.contact-section p {
+    text-align: center;
+    color: #CFC6A0;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form label {
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #E7D8AA;
+}
+
+.contact-form input,
+.contact-form textarea {
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid #E7D8AA;
+    border-radius: 10px;
+    color: #E7D8AA;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: #A59565;
+}
+
+.contact-form button {
+    background-color: #E7D8AA;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    padding: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #CFC6A0;
+    transform: scale(1.05);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #0A0A0A;
+    border-top: 1px solid #E7D8AA;
+    color: #CFC6A0;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+}
